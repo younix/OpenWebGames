@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game name="magn">
+	<players>
+		<player name="green" />
+		<player name="red" />
+		<player name="blue" />
+		<player name="yellow" />
+	</players>
+	<images>
+		<image type="figure" player="green" file="" />
+		<image type="field" name="" file="" />
+	</images>
+	<figures>
+		<figure name="" type="" start_x="" start_y="" image="src" />
+		<figure name="" type="" start_x="" start_y="" />
+	</figures>
+	<board width="11" hight="11" image="bg">
+		<field type="empty"	x="" y="" />
+
+		<field type="way"	x="" y="" pos="1" />
+		<field type="way"	x="" y="" pos="2" />
+		<field type="way"	x="" y="" pos="3" />
+		<field type="way"	x="" y="" pos="4" />
+		<field type="way"	x="" y="" pos="5" />
+		<field type="way"	x="" y="" pos="6" />
+		<field type="way"	x="" y="" pos="7" />
+		<field type="way"	x="" y="" pos="8" />
+		<field type="way"	x="" y="" pos="9" />
+		<field type="way"	x="" y="" pos="10" />
+		<field type="way"	x="" y="" pos="11" />
+		<field type="way"	x="" y="" pos="12" />
+		<field type="way"	x="" y="" pos="13" />
+		<field type="way"	x="" y="" pos="14" />
+		<field type="way"	x="" y="" pos="15" />
+		<field type="way"	x="" y="" pos="16" />
+		<field type="way"	x="" y="" pos="17" />
+		<field type="way"	x="" y="" pos="18" />
+		<field type="way"	x="" y="" pos="19" />
+	</board>
+</game>

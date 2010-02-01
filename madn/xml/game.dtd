@@ -1,0 +1,26 @@
+<!ELEMENT game (board, players, figures, images)>
+	<!ATTLIST game name #REQUIRED>
+
+<!ELEMENT board (field*)>
+	<!ATTLIST board height #REQUIRED>
+	<!ATTLIST board widht  #REQUIRED>
+	<!ELEMENT field>
+		<!ATTLIST field type #REQUIRED>
+		<!ATTLIST field image #REQUIRED>
+		<!ATTLIST field x #REQUIRED>
+		<!ATTLIST field y #REQUIRED>
+
+<!ELEMENT players (player*)>
+	<!ELEMENT player>
+		<!ATTLIST player name #REQUIRED>
+
+<!ELEMENT figures (figure*)>
+	<!ELEMENT figure>
+		<!ATTLIST figure type #REQUIRED>
+		<!ATTLIST figure image>
+
+<!ELEMENT images (image*)>
+	<!ATTLIST image dir>
+	<!ELEMENT image>
+		<!ATTLIST image name #REQUIRED>
+		<!ATTLIST image file #REQUIRED>

@@ -17,7 +17,8 @@
 <!ELEMENT figures (figure*)>
 	<!ELEMENT figure>
 		<!ATTLIST figure type #REQUIRED>
-		<!ATTLIST figure image>
+		<!ATTLIST figure player #REQUIRED>
+		<!ATTLIST figure image #REQUIRED>
 
 <!ELEMENT images (image*)>
 	<!ATTLIST image dir>

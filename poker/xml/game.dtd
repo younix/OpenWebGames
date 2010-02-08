@@ -1,0 +1,9 @@
+<!ELEMENT deck (card*)>
+	<!ELEMENT card>
+		<!ATTLIST card color #REQUIRED>
+		<!ATTLIST card name #REQUIRED>
+
+<!ELEMENT players (player*)>
+	<!ELEMENT player>
+		<!ATTLIST player name #REQUIRED>
+		<!ATTLIST player chips #REQUIRED>

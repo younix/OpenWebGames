@@ -1,7 +1,18 @@
+This project has the aim to produce W3C confom webgames,
+based on XHTML, XML, Java-Script and an PHP Backend.
+
+there should be a server side api, witch comunicate with XML.
+So that is posible to produce 3th party Clients.
+
+
+
 List possible of Games:
-* chesse
 * tic tac too
 * schiffe versenken
 * dame
 * mühle
 * hang man
+* any kind of board-based games
+** chesse
+* card games
+** Poker
